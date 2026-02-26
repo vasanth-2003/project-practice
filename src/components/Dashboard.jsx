@@ -53,9 +53,9 @@ const Dashboard = () => {
           <Link to = "/customer" className="flex items-center px-4 py-3 text-gray-400 rounded-lg hover:bg-gray-800 hover:text-white transition-colors">
             <Users size={20} className="mr-3" /> Customers
           </Link>
-          <a href="#" className="flex items-center px-4 py-3 text-gray-400 rounded-lg hover:bg-gray-800 hover:text-white transition-colors">
+          <Link to = "/settings" className="flex items-center px-4 py-3 text-gray-400 rounded-lg hover:bg-gray-800 hover:text-white transition-colors">
             <Settings size={20} className="mr-3" /> Settings
-          </a>
+          </Link>
         </nav>
       </aside>
 
